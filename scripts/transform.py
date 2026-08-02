@@ -57,6 +57,35 @@ def format_text_columns(df):
     return df
 
 
+def build_dim_account(df):
+    print('\n building dim_account table')
+    dim_account = df[['accountid', 'customerage', 'customeroccupation']].drop_duplicates(subset='accountid')
+    dim_account = dim_account.reset_index(drop=True)
+    print('dim_account shape:', dim_account.shape)
+    return dim_account
+
+
+def build_dim_merchant(df):
+    print('\n building dim_merchant table')
+    dim_merchant = df[['merchantid']].drop_duplicates(subset='merchantid')
+    dim_merchant = dim_merchant.reset_index(drop=True)
+    print('dim_merchant shape:', dim_merchant.shape)
+    return dim_merchant
+
+
+def build_fact_transactions(df):
+    print('\n building fact_transactions table')
+    fact_columns = [
+        'transactionid', 'accountid', 'merchantid', 'transactionamount',
+        'transactiondate', 'transactiontype', 'location', 'deviceid',
+        'ip_address', 'channel', 'transactionduration', 'loginattempts',
+        'accountbalance'
+    ]
+    fact_transactions = df[fact_columns].copy()
+    print('fact_transactions shape:', fact_transactions.shape)
+    return fact_transactions
+
+
 def main():
     df = load_data(DATA_PATH)
     df = clean_column_names(df)
@@ -69,7 +98,11 @@ def main():
     print('\n final shape:', df.shape)
     print('\n final dtypes:\n', df.dtypes)
 
-    return df
+    dim_account = build_dim_account(df)
+    dim_merchant = build_dim_merchant(df)
+    fact_transactions = build_fact_transactions(df)
+
+    return dim_account, dim_merchant, fact_transactions
 
 
 if __name__ == '__main__':
