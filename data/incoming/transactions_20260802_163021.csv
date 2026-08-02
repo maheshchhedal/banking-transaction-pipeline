@@ -1,0 +1,31 @@
+transactionid,accountid,transactionamount,transactiondate,transactiontype,location,deviceid,ip_address,merchantid,channel,customerage,customeroccupation,transactionduration,loginattempts,accountbalance
+e9710633,acc_6404,1629.09,2026-08-02 12:14:38,Credit,Davidshire,dev_165,19.188.246.224,merch_950,Branch,68,Teacher,199,2,13243.41
+b191bcb3,acc_8849,1755.94,2026-08-02 09:55:51,Debit,East Angelaview,dev_112,68.114.32.61,merch_597,Online,30,Retired,34,2,17541.83
+5ee96972,acc_2367,498.45,2026-08-02 14:34:16,Credit,Johnstad,dev_539,140.111.214.169,merch_644,ATM,55,Doctor,290,4,19402.72
+5cf95ce5,acc_2210,1921.47,2026-08-02 06:41:46,Debit,New Jamiemouth,dev_415,141.252.22.230,merch_773,ATM,72,Doctor,141,3,3217.32
+7401285a,acc_5412,919.83,2026-08-02 11:41:58,Credit,Lake Joseph,dev_147,177.127.112.229,merch_514,Online,20,Engineer,97,5,15468.36
+19efee33,acc_4266,1404.27,2026-08-02 10:46:26,Debit,North Douglasbury,dev_264,135.34.218.154,merch_923,ATM,56,Retired,166,5,19711.48
+9e625cc5,acc_4755,975.83,2026-08-02 15:46:40,Debit,Andrealand,dev_927,33.204.241.47,merch_118,Online,24,Teacher,245,2,15304.55
+1d11fc92,acc_7456,1041.14,2026-08-02 09:34:43,Credit,Mitchellmouth,dev_674,81.151.242.199,merch_989,Branch,66,Doctor,261,2,18669.69
+0c7eec93,acc_8779,1377.73,2026-08-01 22:50:17,Debit,Lake Debraside,dev_657,98.68.197.53,merch_352,Branch,22,Student,276,3,16751.24
+ecca9089,acc_2006,861.11,2026-08-02 04:53:30,Debit,North Thomas,dev_559,166.4.31.99,merch_738,Online,21,Engineer,215,4,1474.62
+980867da,acc_5195,1578.01,2026-08-02 08:57:50,Debit,Brandyburgh,dev_504,65.21.135.147,merch_881,Branch,72,Student,96,4,3061.59
+f7640afd,acc_2985,300.17,2026-08-01 21:11:18,Credit,Port Derek,dev_574,59.208.34.19,merch_967,Online,66,Teacher,169,1,8810.15
+b9903c81,acc_1590,1651.09,2026-08-01 17:28:57,Debit,Thomasmouth,dev_229,178.87.103.69,merch_813,ATM,35,Student,131,1,11030.66
+c3065305,acc_6912,1944.76,2026-08-02 12:39:14,Credit,Loganberg,dev_976,167.125.88.140,merch_612,ATM,60,Manager,172,1,11691.49
+82c91817,acc_8669,271.22,2026-08-02 03:42:35,Debit,Donnastad,dev_694,18.194.217.6,merch_548,Branch,27,Manager,133,3,14595.34
+d29b0b5a,acc_6320,232.46,2026-08-02 03:39:34,Credit,East Steven,dev_866,71.34.89.52,merch_196,ATM,20,Retired,76,5,14066.4
+7e79488a,acc_7613,983.06,2026-08-02 03:40:46,Debit,Lake Patrickburgh,dev_298,210.49.52.44,merch_636,Online,25,Manager,294,3,13659.56
+3122dd0b,acc_2983,184.43,2026-08-02 05:33:56,Debit,West Williamchester,dev_895,12.163.85.87,merch_984,ATM,75,Manager,230,3,13448.13
+77a9bc85,acc_1351,1738.17,2026-08-02 08:21:50,Credit,Timothychester,dev_345,162.101.102.6,merch_605,ATM,65,Manager,132,2,13983.43
+778d9489,acc_2025,1130.78,2026-08-02 14:51:42,Credit,East Jacquelinebury,dev_110,49.77.154.251,merch_936,Online,74,Doctor,58,2,9205.93
+d6409a0e,acc_2140,1200.66,2026-08-02 13:12:00,Debit,Leefort,dev_869,159.127.103.88,merch_919,Branch,28,Doctor,240,2,17029.98
+6be33992,acc_5124,1388.71,2026-08-02 05:50:35,Debit,Nathanielmouth,dev_471,17.242.13.130,merch_805,ATM,58,Student,174,3,12894.38
+a30ece88,acc_3016,593.27,2026-08-01 23:50:31,Debit,New Jamesport,dev_502,78.30.141.132,merch_193,Branch,27,Retired,183,2,3886.98
+6f9e15d7,acc_7512,330.37,2026-08-02 03:38:04,Debit,New Randyland,dev_977,44.231.38.163,merch_831,Online,39,Doctor,48,5,18636.55
+f76b6ff5,acc_3369,1507.59,2026-08-02 03:15:06,Credit,Garciahaven,dev_192,173.237.242.40,merch_174,ATM,37,Retired,167,1,14657.73
+098f5993,acc_3572,1582.95,2026-08-02 08:53:44,Credit,New Michaelfurt,dev_686,137.90.58.109,merch_456,Online,67,Retired,262,2,7589.63
+f5a7df71,acc_2950,754.68,2026-08-02 10:40:33,Debit,Port Nancyhaven,dev_224,54.174.188.7,merch_338,ATM,66,Teacher,82,4,13610.09
+cf3b4545,acc_1855,953.29,2026-08-02 14:50:00,Credit,Michealville,dev_651,107.75.218.218,merch_905,Branch,75,Manager,281,5,12514.58
+14ea9449,acc_3370,166.8,2026-08-01 19:58:19,Debit,Whitneyberg,dev_135,96.215.135.138,merch_706,ATM,57,Manager,132,5,2718.02
+6edf1d17,acc_3370,1307.15,2026-08-02 14:44:50,Credit,East Toni,dev_404,164.105.160.236,merch_731,Branch,25,Student,266,2,9901.45
