@@ -86,8 +86,10 @@ def build_fact_transactions(df):
     return fact_transactions
 
 
-def main():
-    df = load_data(DATA_PATH)
+def run_transformations(df):
+    """Runs all cleaning + splitting steps on any given dataframe.
+    Used by both main() (for the original CSV) and run_pipeline.py (for new incoming data).
+    """
     df = clean_column_names(df)
     df = fix_date_column(df)
     df = fix_numeric_columns(df)
@@ -103,6 +105,11 @@ def main():
     fact_transactions = build_fact_transactions(df)
 
     return dim_account, dim_merchant, fact_transactions
+
+
+def main():
+    df = load_data(DATA_PATH)
+    return run_transformations(df)
 
 
 if __name__ == '__main__':

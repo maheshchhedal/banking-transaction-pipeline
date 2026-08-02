@@ -1,0 +1,31 @@
+transactionid,accountid,transactionamount,transactiondate,transactiontype,location,deviceid,ip_address,merchantid,channel,customerage,customeroccupation,transactionduration,loginattempts,accountbalance
+f914954d,acc_4401,329.13,2026-08-02 03:57:23,Debit,Brownfurt,dev_112,83.184.9.61,merch_755,ATM,24,Engineer,279,4,11932.42
+842635b3,acc_4490,1954.99,2026-08-02 05:39:05,Debit,Danielborough,dev_325,128.173.215.234,merch_833,ATM,35,Manager,11,5,1043.52
+71cb5bf6,acc_3685,1904.78,2026-08-01 16:41:41,Debit,Angelaport,dev_306,134.178.235.230,merch_690,Online,51,Student,181,1,8531.53
+290dcbd9,acc_3226,1735.79,2026-08-02 11:34:06,Debit,Douglasberg,dev_661,145.193.106.27,merch_356,ATM,31,Doctor,258,2,16652.1
+192d9608,acc_1344,1113.34,2026-08-01 23:13:22,Debit,Tanyachester,dev_969,96.12.18.149,merch_100,Branch,38,Manager,214,4,9999.25
+3efcb562,acc_4058,1205.48,2026-08-01 22:39:52,Credit,Moonmouth,dev_468,128.176.218.54,merch_130,Branch,23,Engineer,175,4,9589.88
+006598e0,acc_2215,1895.0,2026-08-02 11:13:43,Credit,Davidfort,dev_861,63.179.127.106,merch_132,Branch,37,Teacher,43,2,10879.53
+0582fc26,acc_3486,534.89,2026-08-02 12:21:41,Credit,Erinport,dev_451,30.96.28.54,merch_105,Branch,46,Teacher,74,5,5539.75
+08d73d74,acc_6911,327.6,2026-08-02 09:03:26,Credit,East Kevin,dev_803,38.251.87.197,merch_860,Online,20,Engineer,268,5,19627.98
+00f349ff,acc_7529,1650.92,2026-08-02 01:39:40,Debit,Lake Margaret,dev_971,60.204.8.252,merch_257,ATM,31,Retired,107,2,3889.37
+f3b1bb7d,acc_1886,1394.99,2026-08-02 15:50:56,Debit,Kathyhaven,dev_198,97.227.167.119,merch_334,ATM,60,Manager,183,2,8350.23
+d3a78d55,acc_6376,376.41,2026-08-02 06:36:19,Credit,East Allisonmouth,dev_165,212.197.192.251,merch_112,ATM,33,Teacher,52,3,19387.9
+ee78c28b,acc_8837,1762.41,2026-08-01 20:20:57,Debit,South Jodymouth,dev_849,153.207.41.246,merch_534,ATM,43,Engineer,17,4,1766.09
+2683698b,acc_4449,732.9,2026-08-02 02:22:08,Credit,Cassandraburgh,dev_983,198.35.151.244,merch_847,Online,72,Student,297,2,1318.66
+04de1ad9,acc_6691,456.38,2026-08-02 09:54:25,Credit,North Jennaport,dev_989,79.250.191.4,merch_166,Online,54,Engineer,169,1,3526.24
+1db1a3ac,acc_1388,867.7,2026-08-02 11:50:03,Credit,Jamesport,dev_182,81.116.136.17,merch_343,Branch,48,Teacher,123,5,2827.11
+d168d706,acc_7415,1076.82,2026-08-02 10:14:44,Debit,East Shannon,dev_884,140.62.150.139,merch_110,Branch,72,Retired,162,4,18618.52
+5a92f8c0,acc_1161,683.93,2026-08-02 03:39:20,Debit,New Patricia,dev_397,47.117.187.16,merch_152,Branch,37,Student,263,3,9668.93
+2446648f,acc_8574,1027.32,2026-08-02 07:18:02,Credit,Taylorland,dev_413,99.22.122.235,merch_754,Branch,49,Retired,135,5,13458.93
+caa3e167,acc_1002,1316.54,2026-08-02 05:31:47,Credit,South Kathrynshire,dev_449,33.92.239.94,merch_576,Online,18,Doctor,145,3,11725.89
+acfa01c9,acc_6154,1364.08,2026-08-02 06:09:05,Debit,Hardyside,dev_347,117.136.198.134,merch_423,ATM,35,Manager,213,3,337.33
+f7773cd6,acc_3436,1221.2,2026-08-01 22:41:59,Debit,Bryanmouth,dev_394,139.53.55.176,merch_260,Branch,65,Retired,253,3,12509.07
+68170971,acc_3886,1769.2,2026-08-01 17:49:55,Debit,North Williamport,dev_428,156.210.89.63,merch_944,ATM,74,Doctor,27,2,10792.16
+7a4612e0,acc_7741,1383.48,2026-08-02 14:43:42,Debit,Harrisbury,dev_998,158.45.255.228,merch_337,Branch,40,Teacher,300,5,19503.37
+e82664ee,acc_9438,495.34,2026-08-01 20:27:32,Credit,Port Lisamouth,dev_230,190.218.145.108,merch_856,Online,72,Student,46,1,1204.28
+9247a9b8,acc_9754,672.64,2026-08-02 10:49:23,Debit,West Erica,dev_164,68.118.197.236,merch_405,Online,57,Engineer,67,2,7763.99
+979c0b1e,acc_7815,1902.38,2026-08-02 03:10:19,Credit,Port Timothyborough,dev_699,204.223.81.87,merch_546,ATM,40,Teacher,143,2,18152.0
+13cc847c,acc_7113,154.15,2026-08-02 06:03:36,Debit,Lake Christianside,dev_989,201.98.35.210,merch_147,Online,28,Doctor,201,4,7719.18
+b8de4f49,acc_6951,217.24,2026-08-02 16:34:28,Credit,Port Lauraton,dev_563,85.227.132.5,merch_911,ATM,38,Student,145,1,16448.72
+1cbfdcc3,acc_5128,984.56,2026-08-02 08:31:20,Debit,Timville,dev_492,141.148.253.5,merch_315,ATM,19,Doctor,118,4,7308.15

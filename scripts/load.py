@@ -24,16 +24,35 @@ def get_engine(config):
     return engine
 
 
+import pandas as pd
+
+
+def get_existing_ids(engine, table_name, id_column):
+    query = f"SELECT {id_column} FROM {table_name}"
+    existing = pd.read_sql(query, engine)
+    return set(existing[id_column])
+
+
 def load_dim_account(engine, dim_account):
     print('\n loading dim_account into MySQL')
-    dim_account.to_sql('dim_account', con=engine, if_exists='append', index=False)
-    print('dim_account rows loaded:', len(dim_account))
+    existing_ids = get_existing_ids(engine, 'dim_account', 'accountid')
+    new_rows = dim_account[~dim_account['accountid'].isin(existing_ids)]
+    if new_rows.empty:
+        print('no new accounts to insert')
+        return
+    new_rows.to_sql('dim_account', con=engine, if_exists='append', index=False)
+    print('dim_account rows loaded:', len(new_rows))
 
 
 def load_dim_merchant(engine, dim_merchant):
     print('\n loading dim_merchant into MySQL')
-    dim_merchant.to_sql('dim_merchant', con=engine, if_exists='append', index=False)
-    print('dim_merchant rows loaded:', len(dim_merchant))
+    existing_ids = get_existing_ids(engine, 'dim_merchant', 'merchantid')
+    new_rows = dim_merchant[~dim_merchant['merchantid'].isin(existing_ids)]
+    if new_rows.empty:
+        print('no new merchants to insert')
+        return
+    new_rows.to_sql('dim_merchant', con=engine, if_exists='append', index=False)
+    print('dim_merchant rows loaded:', len(new_rows))
 
 
 def load_fact_transactions(engine, fact_transactions):
