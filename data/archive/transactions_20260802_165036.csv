@@ -1,0 +1,31 @@
+transactionid,accountid,transactionamount,transactiondate,transactiontype,location,deviceid,ip_address,merchantid,channel,customerage,customeroccupation,transactionduration,loginattempts,accountbalance
+8a9794b8,acc_9124,1882.58,2026-08-02 07:37:04,Credit,Lake Karenmouth,dev_122,97.93.81.44,merch_967,Branch,37,Retired,216,1,7279.21
+1f7e72b9,acc_2149,730.54,2026-08-02 15:20:09,Debit,Christinachester,dev_158,130.207.8.241,merch_288,Online,20,Manager,187,1,10035.33
+f86e2bbd,acc_5538,51.28,2026-08-02 02:02:25,Debit,Yolandaview,dev_635,161.255.154.173,merch_383,Branch,64,Doctor,249,3,4364.7
+ae36962a,acc_7934,569.95,2026-08-02 10:44:23,Debit,South Eugeneville,dev_456,65.110.52.23,merch_753,ATM,31,Retired,40,2,14475.83
+16e583ae,acc_7392,1475.59,2026-08-01 21:39:32,Credit,West Alicia,dev_556,60.104.34.178,merch_355,Online,42,Doctor,216,3,665.11
+9fbff6fb,acc_4870,799.78,2026-08-02 16:27:41,Debit,New William,dev_524,16.19.1.112,merch_103,ATM,53,Manager,237,4,7918.94
+86ab54aa,acc_9050,1261.27,2026-08-02 03:58:46,Credit,New Jessicaborough,dev_820,156.70.249.181,merch_743,Online,46,Engineer,17,3,13484.86
+825e336a,acc_4647,1985.64,2026-08-02 05:25:59,Debit,Kingberg,dev_117,3.143.130.189,merch_112,Online,64,Engineer,285,4,19711.4
+6bec46ef,acc_3555,1666.33,2026-08-02 05:39:25,Debit,South Shelby,dev_131,172.122.155.158,merch_250,Branch,68,Teacher,199,1,5544.02
+54a5bc13,acc_8081,768.63,2026-08-01 17:06:30,Credit,Port Jenniferville,dev_203,73.86.253.26,merch_404,Branch,28,Doctor,24,4,14074.7
+ed6fcf9b,acc_4047,943.57,2026-08-02 16:46:37,Debit,Lake Seanfurt,dev_675,218.103.213.177,merch_453,Online,62,Student,143,2,2344.65
+2afa9155,acc_7929,511.41,2026-08-02 11:43:26,Debit,Andrewton,dev_277,180.92.248.85,merch_957,ATM,61,Student,246,5,12675.52
+6adebbaf,acc_3096,848.69,2026-08-01 18:24:55,Debit,Wolfport,dev_492,133.73.7.49,merch_827,Online,59,Retired,36,2,19154.7
+ad70b24c,acc_1524,1190.49,2026-08-02 10:01:32,Debit,Johnsonview,dev_524,134.163.144.225,merch_475,Branch,25,Retired,199,5,12870.9
+8ed5a7b8,acc_6504,1691.49,2026-08-02 13:30:09,Credit,Clarkshire,dev_660,183.142.20.133,merch_611,Online,21,Student,260,2,3559.46
+669af762,acc_6776,685.36,2026-08-01 17:54:26,Debit,West Marcus,dev_978,174.242.246.99,merch_506,ATM,40,Engineer,290,5,6126.07
+82dd42e6,acc_3280,1169.24,2026-08-01 21:08:28,Debit,Dianechester,dev_304,38.13.37.171,merch_210,ATM,20,Doctor,197,1,6295.98
+55b61fcf,acc_3815,797.47,2026-08-02 02:32:59,Debit,Lake Kenneth,dev_584,189.193.107.115,merch_856,ATM,36,Manager,197,1,3624.18
+88d1e92f,acc_7860,944.62,2026-08-01 20:07:16,Credit,East Alyssastad,dev_640,8.241.118.196,merch_267,ATM,62,Retired,234,4,14347.22
+9c4837c2,acc_5127,468.64,2026-08-02 10:28:24,Debit,North Michaelstad,dev_467,84.29.159.255,merch_874,ATM,22,Doctor,172,5,903.07
+7c44e68e,acc_3612,1476.63,2026-08-01 18:19:31,Credit,South Nancyside,dev_187,66.24.132.201,merch_151,Online,37,Manager,104,4,19278.61
+76b2fb7c,acc_4619,1095.86,2026-08-02 15:10:36,Credit,South Carrie,dev_619,217.65.176.173,merch_486,Branch,36,Manager,63,3,7898.68
+bca0ec52,acc_3505,260.24,2026-08-02 11:03:50,Credit,North Michaelville,dev_737,210.124.129.108,merch_379,Branch,30,Manager,221,3,19345.24
+69d9f47b,acc_7065,746.95,2026-08-02 09:20:41,Credit,West Jesse,dev_412,14.191.203.149,merch_541,ATM,55,Doctor,218,1,18179.09
+cd4a273d,acc_5143,70.15,2026-08-01 18:07:44,Credit,West Rachelland,dev_983,50.118.243.66,merch_309,ATM,27,Engineer,87,4,12306.66
+7265e24a,acc_9192,1255.75,2026-08-02 08:42:49,Credit,Lake Gabriella,dev_657,217.72.122.189,merch_728,Online,70,Manager,36,5,10822.97
+b218c01b,acc_2667,1458.88,2026-08-02 00:51:35,Debit,North Zacharyfort,dev_247,215.222.191.238,merch_815,ATM,37,Retired,170,3,14141.43
+a3b6b863,acc_5652,315.5,2026-08-02 11:36:48,Credit,Stevenfort,dev_666,118.250.255.78,merch_209,Online,44,Engineer,296,2,19823.78
+fd7493f5,acc_7947,1910.19,2026-08-02 14:03:48,Debit,Williamsfort,dev_998,58.52.184.159,merch_201,Online,60,Teacher,139,4,18770.72
+580c7430,acc_5136,1700.18,2026-08-02 07:57:07,Credit,South Julie,dev_753,186.114.127.122,merch_255,Branch,32,Retired,229,2,10407.22
