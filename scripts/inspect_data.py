@@ -56,10 +56,10 @@ def check_id_columns(df):
 def main():
     df = load_data(DATA_PATH)
 
-    # inspect_data(df)
-    # check_column(df)
-    # check_dtypes(df)
-    # check_stats(df)
+    inspect_data(df)
+    check_column(df)
+    check_dtypes(df)
+    check_stats(df)
     check_categorical(df)
     check_id_columns(df)
 
